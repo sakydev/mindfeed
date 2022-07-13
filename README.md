@@ -24,51 +24,51 @@ A full fledged API to build feed reader with all bells and whistles. It supports
 
 ### 0. Auth
 *0.1* -> authentication
-	`POST` : `/auth` -> generate auth token
+	`POST` : `/auth` -> generate auth token. 
 
 #### 1. Admin Endpoints
 *1.1* -> Users
-	 `GET` : `/admin/users` -> list users	
-	 `GET` : `/admin/users/{user}` -> list single user
-	 `POST` :  `/admin/users` -> create new user
-	 `PUT` : `/admin/users/{user}` -> update a user
-	 `DELETE` : `/admin/users/{user}` -> delete a user
+	 `GET` : `/admin/users` -> list users.  
+	 `GET` : `/admin/users/{user}` -> list single user. 
+	 `POST` :  `/admin/users` -> create new user. 
+	 `PUT` : `/admin/users/{user}` -> update a user. 
+	 `DELETE` : `/admin/users/{user}` -> delete a user. 
 
 *1.2* -> Stats
-	 `GET` :  `/admin/stats` -> get overall stats
+	 `GET` :  `/admin/stats` -> get overall stats. 
 
 *1.3* -> Settings
-	 `GET` : `/admin/settings` -> get overall settings
-	 `PUT` : `/admin/settings` -> update settings
+	 `GET` : `/admin/settings` -> get overall settings. 
+	 `PUT` : `/admin/settings` -> update settings. 
 
 #### 2. Normal User Endpoints
 *2.1* -> feed
-	 `GET` : `/feed` -> get user feed
-	 `GET` : `/feed/{source}` -> get source specific feed
-	 `GET` : `/feed/{day}` -> get date specific feed  
+	 `GET` : `/feed` -> get user feed. 
+	 `GET` : `/feed/{source}` -> get source specific feed. 
+	 `GET` : `/feed/{day}` -> get date specific feed    
 
 *2.2* -> sources
-	 `GET` :  `/sources`  -> list user’s sources
-	 `POST` : `/sources` -> add new user source
-	 `DELETE` : `/sources` -> delete a source
+	 `GET` :  `/sources`  -> list user’s sources. 
+	 `POST` : `/sources` -> add new user source. 
+	 `DELETE` : `/sources` -> delete a source. 
  
 *2.3* -> favorites
-	 `GET` : `/favorites` -> get user favs
-	 `POST` : `/favorites` -> add new fav
-	 `DELETE` : `/favorites/{item}` -> delete from favs
+	 `GET` : `/favorites` -> get user favs. 
+	 `POST` : `/favorites` -> add new fav. 
+	 `DELETE` : `/favorites/{item}` -> delete from favs. 
 
 *2.4* -> collections
-	`GET` : `/collections` -> get user collections
-	`POST` : `/collections` -> add new collection
-       `PUT` : `/collections/{collection}` -> update a collection
-	`DELETE` : `/collections/{collection}` -> delete a collection
+	`GET` : `/collections` -> get user collections. 
+	`POST` : `/collections` -> add new collection. 
+       `PUT` : `/collections/{collection}` -> update a collection. 
+	`DELETE` : `/collections/{collection}` -> delete a collection. 
 
-	`GET` : `/collections/{collection}` -> get collection items
- 	`POST` : `/collections/{collection}` -> add collection item
-	`DELETE` : `/collections/{collection}/{item}` -> delete col item
+	`GET` : `/collections/{collection}` -> get collection items. 
+ 	`POST` : `/collections/{collection}` -> add collection item. 
+	`DELETE` : `/collections/{collection}/{item}` -> delete col item. 
 
 *2.5* -> settings
-	`GET` : `/users/{user}/settings` -> get overall settings
-	`PUT` : `/users/{user}/settings` -> update settings
+	`GET` : `/users/{user}/settings` -> get overall settings. 
+	`PUT` : `/users/{user}/settings` -> update settings. 
 
 
