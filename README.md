@@ -27,12 +27,12 @@ A full fledged API to build feed reader with all bells and whistles. It supports
 	`POST` : `/auth` -> generate auth token. 
 
 #### 1. Admin Endpoints
-*1.1* -> Users
-	 `GET` : `/admin/users` -> list users.  
-	 `GET` : `/admin/users/{user}` -> list single user. 
-	 `POST` :  `/admin/users` -> create new user. 
-	 `PUT` : `/admin/users/{user}` -> update a user. 
-	 `DELETE` : `/admin/users/{user}` -> delete a user. 
+*1.1* => Users
+- `GET` : `/admin/users` -> list users.  
+- `GET` : `/admin/users/{user}` -> list single user. 
+- `POST` :  `/admin/users` -> create new user. 
+- `PUT` : `/admin/users/{user}` -> update a user. 
+- `DELETE` : `/admin/users/{user}` -> delete a user. 
 
 *1.2* -> Stats
 	 `GET` :  `/admin/stats` -> get overall stats. 
